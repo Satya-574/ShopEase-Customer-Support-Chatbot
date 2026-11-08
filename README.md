@@ -55,3 +55,8 @@ This is a demonstration project. Live order tracking and real payment processing
 ---
 
 Developed as an Internship Project.
+
+## Live Chatbot
+
+[Click here to use ShopEase Chatbot]
+(https://www.chatbase.co/preview/oE7oV-ToyEwJt7AWKpD1p?channel=chat-widget)
