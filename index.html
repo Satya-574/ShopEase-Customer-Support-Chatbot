@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ShopEase AI customer support — quick help for your shopping questions." />
+  <title>ShopEase | AI Customer Support</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, Arial, sans-serif; color: #172033; background: #f7f8fc; }
+    header { display:flex; align-items:center; justify-content:space-between; padding:20px 7%; background:#fff; box-shadow:0 2px 14px #1720330d; }
+    .logo { font-size:1.45rem; font-weight:800; color:#5b4bdb; letter-spacing:-.5px; }
+    nav a { color:#46506a; text-decoration:none; margin-left:24px; font-weight:600; font-size:.95rem; }
+    .hero { padding:88px 7% 76px; text-align:center; background:linear-gradient(135deg,#f0efff,#eef7ff); }
+    .tag { display:inline-block; padding:8px 14px; border-radius:30px; background:#fff; color:#5b4bdb; font-size:.85rem; font-weight:700; }
+    h1 { max-width:780px; margin:22px auto 16px; font-size:clamp(2.3rem,6vw,4.2rem); line-height:1.08; letter-spacing:-2px; }
+    .hero p { max-width:620px; margin:0 auto; color:#65708a; font-size:1.1rem; line-height:1.7; }
+    .cta { display:inline-block; margin-top:28px; padding:14px 24px; border-radius:10px; background:#5b4bdb; color:white; text-decoration:none; font-weight:700; }
+    main { max-width:1050px; margin:0 auto; padding:62px 24px; }
+    .section-title { text-align:center; font-size:2rem; margin:0 0 12px; }
+    .sub { text-align:center; color:#68738a; line-height:1.6; margin:0 auto 34px; max-width:650px; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .card { background:white; padding:25px; border-radius:16px; border:1px solid #e9ebf3; box-shadow:0 8px 24px #17203308; }
+    .card .icon { font-size:1.8rem; }
+    .card h3 { margin:14px 0 8px; }
+    .card p { color:#68738a; line-height:1.6; margin:0; }
+    .chat-panel { margin-top:56px; padding:34px; background:#fff; border:1px solid #e9ebf3; border-radius:18px; text-align:center; }
+    .chat-panel p { color:#68738a; line-height:1.6; }
+    footer { text-align:center; padding:25px; color:#7a8398; background:#fff; font-size:.9rem; }
+    @media(max-width:700px) { header { padding:17px 5%; } nav a { margin-left:12px; font-size:.85rem; } .hero { padding:65px 6%; } .cards { grid-template-columns:1fr; } main { padding:48px 18px; } .chat-panel { padding:25px 18px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">ShopEase</div>
+    <nav><a href="#home">Home</a><a href="#features">Features</a><a href="#support">Support</a></nav>
+  </header>
+
+  <section class="hero" id="home">
+    <span class="tag">AI-powered customer support</span>
+    <h1>Shopping help, made simple.</h1>
+    <p>Have a question about shopping, orders, returns, or account support? ShopEase is here to help you find answers quickly.</p>
+    <a class="cta" href="#support">Chat with ShopEase</a>
+  </section>
+
+  <main>
+    <section id="features">
+      <h2 class="section-title">How ShopEase helps</h2>
+      <p class="sub">A simple customer-support experience designed to make getting help faster and easier.</p>
+      <div class="cards">
+        <article class="card"><div class="icon">💬</div><h3>Instant assistance</h3><p>Ask questions in natural language and get helpful responses from the AI assistant.</p></article>
+        <article class="card"><div class="icon">📦</div><h3>Shopping support</h3><p>Get guidance for common shopping and order-related questions.</p></article>
+        <article class="card"><div class="icon">⏱️</div><h3>Available online</h3><p>Open the chat widget whenever you need help, from your phone or computer.</p></article>
+      </div>
+    </section>
+
+    <section class="chat-panel" id="support">
+      <h2>Need help? Ask ShopEase.</h2>
+      <p>Use the chat bubble at the bottom of this page to start a conversation with our AI customer-support assistant.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 ShopEase. Student project demonstration.</footer>
+
+  <script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="oE7oV-ToyEwJt7AWKpD1p";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+</body>
+</html>
